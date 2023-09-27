@@ -13,7 +13,7 @@ function App() {
     const [validationErrors, setValidationErrors] = useState({})
 
     useEffect(() => {
-        if (formOptionsData.stateData) {
+        if (formOptionsData?.stateData?.length) {
             formOptionsData.stateData.forEach((data) => {
                 setFormData((prevState) => ({
                     ...prevState,
