@@ -1,0 +1,39 @@
+{
+  "stateData": [
+    {
+      "default_value": "Samvel",
+      "name": "name",
+      "value": "",
+      "validation": "",
+      "type": "text"
+    },
+    {
+      "default_value": "",
+      "name": "email",
+      "value": "",
+      "validation": "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$",
+      "type": "email"
+    },
+    {
+      "default_value": 26,
+      "name": "age",
+      "value": "",
+      "min_value": 1,
+      "max_value": 100,
+      "type": "number"
+    },
+    {
+      "default_value": "Germany",
+      "name": "country",
+      "value": "",
+      "type": "dropdown",
+      "options": ["France", "Spain", "Germany", "Portugal"]
+    },
+    {
+      "default_value": "",
+      "name": "content",
+      "value": "",
+      "type": "longtext"
+    }
+  ]
+}
